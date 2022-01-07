@@ -1,0 +1,39 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p{
+    height: 50px;
+    width: 400px;
+   }
+
+/*
+Add some style blocks below this line to style the cards.
+Feel free to borrow from Exercise 1.
+*/
+@media (min-width: 1200px) {
+   .a {
+       display: inline-block;
+       
+   }
+   }
+
+
+/* Tablet Media Query */
+@media only screen and (max-width: 1000px) {
+ body {
+     height: 100px;
+     width: 900px;
+ }
+}
+
+/* Mobile Phone Media Query */
+@media only screen and (max-width: 600px) {
+
+    
+}
