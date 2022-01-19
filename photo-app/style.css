@@ -1,0 +1,197 @@
+
+body {
+    background-color: rgb(182, 181, 189);
+}
+
+
+.mchild {
+    width: 50%;
+    float: left;
+}
+
+#navbar  {
+    background-color: white;
+
+}
+
+
+.nchild {
+    width: 50%;
+    float: right;
+    text-align: right;
+
+}
+
+.ochild {
+    width: 80%;
+    float: left;
+}
+
+.qchild {
+    width: 20%;
+    float: right;
+    text-align: center;
+    color:blue;
+
+}
+
+.clr {
+    clear: both;
+}
+.image {
+    width: 20%;
+    float: left;   
+}
+
+.iname {
+    width: 72%;
+    float: right;
+}
+
+.sugpro {
+    display: flex;
+    align-content: center;
+
+}
+
+.sugpro1 {
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+.storypan {
+    min-width: 500px;
+    width: 50%;
+    float:left;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 2px;
+}
+
+.story1 {
+    width:20%;
+    margin: 5px;
+    padding: 5px;
+}
+.rec_panel {
+    width: 35%;
+    float: right;
+}
+
+ 
+.myimg {
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+  border-radius:50%;
+
+}
+
+.myim{
+    width: 80px;
+    height: 80px;
+    object-fit:cover;
+  border-radius:50%;
+
+}
+
+
+.storypan {
+    display: flex;
+    float: left;
+    width: 50%;  
+}
+
+
+.ttext {
+
+    display: inline;
+    width: 95%;
+    float: left;
+}
+
+.tdot {
+    float: right;
+    width: 5%;
+}
+
+.postimgp {
+    width: 100%;
+    
+
+}
+
+.lcs {
+    display: flex;
+    float:left;
+}
+
+.sa {
+    float: right;
+    width: 12%;
+}
+
+
+.lcs section {
+    margin: 3px;
+}
+
+.name {
+    display: inline;
+    float: left;  
+    width: 100%;
+}
+
+.post {
+    width: 50%;
+    min-width: 500px;
+}
+
+
+.buttons {
+
+    display: inline;
+    width: 95%;
+    float: left;
+}
+
+.right_button {
+    float: right;
+    width: 5%;
+}
+
+.smile {
+
+    display: inline;
+    width: 5%;
+    float: left;
+}
+
+.add_cmt {
+    float: center;
+    width: 95%;
+}
+
+.smiltxt {
+    display: inline;
+    width: 50%;
+    float: center;
+}
+
+.posttt {
+    display: inline;
+    float: right;
+    width: 20%;
+
+}
+
+
+@media (max-width:900px) {
+    .rec_panel {
+        display: none;
+    }
+}
